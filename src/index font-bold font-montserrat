@@ -1,0 +1,336 @@
+.css">
+@importШкольныйС url('https://fonts.googleapis.com/тиль</h1>
+          css2?family=Roboto:wght@300;400;500;</div>
+          <nav className="hidden700&family=Source+Sans+Pro: md:flex space-x-6wght@300;400;600;700">
+            <a href="#" className="hover:text-[#33C3F&display=swap');
+
+@tailwind base0] transition-colors">;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  Главная</a>
+            <a href="#" className="hover:text-[#:root {
+    --33C3F0] transition-colors">Каталог</a>
+            background: 210 40<a href="#" className="hover:text-% 98%;
+    --fore[#33C3F0] transition-ground: 222.2 84colors">Для школ% 4.9%;</a>
+            <a href="#" className="hover:text-[#33C
+
+    --card: 0 0% 100%;
+    --car3F0] transition-colors">Контd-foreground: 222акты</a>
+          </nav>.2 84%
+          <div className="flex 4.9%;
+
+    --pop items-center gap-3over: 0 0% 100%;">
+            <Button variant="ghost
+    --popover-foreground: 222.2 84% 4.9" size="icon" className="text-white">
+              <Icon name="Search" size={20} />
+            </Button%;
+
+    --primary: 196 82% 49%;
+    --primary-foreground: 210>
+            <Button variant="ghost" size 40% 98%;
+
+    --secondary="icon" className="text-white">: 210 40% 96
+              <Icon name="ShoppingCart" size.1%;
+    --={20} />
+            </Button>
+            <Button variant="ghostsecondary-foreground: 222.2 47.4% 11" size="icon" className="md:hidden text-white">
+              .2%;
+
+    --muted: 210 40% 96.<Icon name="Menu" size={20} />
+            </Button>
+          </div1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96>
+        </div>
+      </header>
+
+      {/* Баннер */}
+      <section className="bg-gradient-to-r from.1%;
+    --accent-foregroun-[#1A1F2C]d: 222.2 47. to-[#2A30424% 11.2%;
+
+    --] text-white py-12destructive: 0 84 md:py-20">
+        <div.2% 60.2 className="container mx-auto px-4 %;
+    --destructive-foreground:text-center">
+          <h2  210 40% 98%;
+
+    className="text-2xl md:text---border: 214.4xl font-bold mb3 31.8% 91.4%;
+    --input: -4 font-montserrat">214.3 31.Конструктор школь8% 91.4%;
+    --ной формы</h2>
+          ring: 196 82% 49<p className="text-lg md:text%;
+
+    --radius: 0.5-xl opacity-90 maxrem;
+
+    --sidebar-backgroun-w-2xl mx-auto mbd: 0 0% 98-8">
+            Создай%;
+    --sidebar-foreground: те идеальный образ для учебного заведения с н240 5.3% 26ашей удобной систем.1%;
+    --sidebarой подбора од-primary: 240ежды
+          </p>
+           5.9% 10<div className="flex flex%;
+    --sidebar--wrap justify-center gap-4primary-foreground: 0 0%">
+            <Button className="bg-[#33C 98%;
+    --sidebar-accent: 240 43F0] hover:bg-[#33C3F0]/.8% 95.9%;
+    --sidebar-accent-foregroun90">
+              Начать подd: 240 5.9бор
+              <Icon name="Ar% 10%;
+    --sidebarrowRight" className="ml-2"-border: 220 13 size={16} />
+            </Button>
+            <Button variant="outline% 91%;
+    --sidebar" className="border-white-ring: 217. text-white hover:bg2 91.2% 59-white/10">
+              .8%;
+  }Популярные комплек
+
+  .dark {
+    --background: ты
+            </Button>
+          </div>
+        </div>
+      222.2 84%</section>
+
+      {/* Основ 4.9%;
+    --foregrounной контент */}
+      <main classNamed: 210 40% 98%;
+
+    --card: 222.2 84="flex-1 bg-[% 4.9%;
+    --car#F6F6F7] py-d-foreground: 210 40% 12">
+        <div className98%;
+
+    --popover: 222="container mx-auto px-4">.2 84% 4.9%;
+    --popover-foreground: 
+          <Tabs defaultValue="catalog210 40% 98%;
+
+    --" className="space-y-8primary: 196 82% 49%;">
+            <TabsList
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6 className="w-full max-w-md mx-auto grid grid-cols-2">
+              <TabsT% 17.5%;
+    --secondaryrigger value="catalog" className="font-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --m-montserrat">Каталог формы</TabsTrigger>
+              <TabsTrigger value="popular" className="font-montuted-foreground: 215serrat">Популярные комплек 20.2% 65ты</TabsTrigger>
+            </TabsList>
+
+            <TabsContent value.1%;
+
+    --accent: 217.2 32.6%="catalog" className="space 17.5%;-y-8 animate
+    --accent-foreground: 210-in fade-in-50 40% 98%;
+
+    --destruct">
+              {/* Фильтive: 0 62ры */}
+              <div className="flex.8% 30.6 flex-wrap gap-2%;
+    --destructive-foreground: 210 40% 98 justify-center">
+                {UNIFORM%;
+
+    --border: 217_CATEGORIES.map((.2 32.6% 17.category) => (
+                  <Button 5%;
+    --input: 217.
+                    key={category.id}2 32.6% 17.5
+                    variant={selectedCategory === category%;
+    --ring: 196 82.id ? "default" : "outline"}
+                    className={selecte% 49%;
+    dCategory === category.id ? "bg-[
+    --sidebar-background: 240#33C3F0] hover 5.9% 10%;:bg-[#33C3F0
+    --sidebar-foreground: 240]/90" : ""}
+                    onClick={() => setSelectedCategory( 4.8% 95category.id)}
+                  >
+                .9%;
+    --sidebar-primary:    {category.name}
+                   224.3 76</Button>
+                ))}
+              </div.3% 48%;>
+
+              {/* С
+    --sidebar-primary-foreground:етка товаров */} 0 0% 100
+              <div className="grid grid-cols-%;
+    --sidebar-accent: 2401 sm:grid-cols- 3.7% 152 md:grid-cols-.9%;
+    --sidebar3 lg:grid-cols-4 -accent-foreground: 240 4gap-6">
+                {filtere.8% 95.9%;
+    dItems.map((item) => (
+                  <Card key={item.id} className--sidebar-border: 240 3.7% 15.9%;
+    ="overflow-hidden hover---sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}scale transition-transform duration-300">
+                    <div className="aspect
+
+@layer base {
+  * {
+    @apply border-square relative overflow-hidden bg-border;
+  }
+
+  body {
+    @apply bg-backgroun-gray-100">
+                      d text-foreground;
+  <img 
+                        src={item.image} 
+                        alt={}
+}
+</pp-item.name}
+                        className="write>
+
+Готово! Я создw-full h-full object-cover transitionал конструктор для подбора школьной формы с интерактивным инт-transform hover:scale-105 duration-300"
+                      />
+                      {item.popular && (
+                        <spanерфейсом и className="absolute top-2 right-2 современным дизайном bg-[#33C3F0. Приложение поз] text-white text-xs px-2воляет выбир py-1 rounded-full">ать различные элементы школьной од
+                          Популярно
+                        </span>
+                      )}
+                    ежды с визуализацией соб</div>
+                    <CardContent className="ранного комплекта.p-4">
+                      <h3 className="font-medium text-lg mb-1">{item.name}</h3>
+                      <div className="flex justify-between items-center mt-2">
+                        <p className="font-bold">{item.price} ₽</p>
+                        <div className="flex gap-1">
+                          {item.colors.map((color) => (
+                            <span 
+                              key={color} 
+                              className="w-4 h-4 rounded-full border border-gray-300" 
+                              style={{ backgroundColor: color.includes('-') ? 'url(/plaid.png)' : color }}
+                            />
+                          ))}
+                        </div>
+                      </div>
+                      <Button className="w-full mt-3 bg-[#1A1F2C] hover:bg-[#1A1F2C]/90">
+                        В корзину
+                      </Button>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </TabsContent>
+
+            <TabsContent value="popular" className="animate-in fade-in-50">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {POPULAR_SETS.map((set) => (
+                  <Card key={set.id} className="overflow-hidden hover-scale transition-transform duration-300">
+                    <div className="aspect-video relative overflow-hidden bg-gray-100">
+                      <img 
+                        src={set.image} 
+                        alt={set.name}
+                        className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
+                      />
+                    </div>
+                    <CardContent className="p-4">
+                      <h3 className="font-medium text-xl mb-2">{set.name}</h3>
+                      <p className="text-gray-600 mb-3">
+                        Включает {set.items.length} предмета
+                      </p>
+                      <div className="flex justify-between items-center">
+                        <p className="font-bold text-lg">{set.price} ₽</p>
+                        <Button className="bg-[#33C3F0] hover:bg-[#33C3F0]/90">
+                          Подробнее
+                        </Button>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </TabsContent>
+          </Tabs>
+        </div>
+      </main>
+
+      {/* Секция преимуществ */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 font-montserrat">Наши преимущества</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="bg-[#F6F6F7] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="ThumbsUp" size={28} className="text-[#33C3F0]" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Качественные материалы</h3>
+              <p className="text-gray-600">Одежда изготовлена из прочных и комфортных тканей, подходящих для ежедневной носки</p>
+            </div>
+            <div className="text-center">
+              <div className="bg-[#F6F6F7] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="Ruler" size={28} className="text-[#33C3F0]" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Точные размеры</h3>
+              <p className="text-gray-600">Удобная таблица размеров и возможность заказать примерку перед покупкой</p>
+            </div>
+            <div className="text-center">
+              <div className="bg-[#F6F6F7] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon name="TruckDelivery" size={28} className="text-[#33C3F0]" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Быстрая доставка</h3>
+              <p className="text-gray-600">Доставляем заказы в течение 2-3 дней в любую точку России</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-[#1A1F2C] text-white py-8">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+              <div className="flex items-center gap-2 mb-4">
+                <Icon name="GraduationCap" size={24} className="text-[#33C3F0]" />
+                <h3 className="text-xl font-bold">ШкольныйСтиль</h3>
+              </div>
+              <p className="text-gray-400">Ваш конструктор идеальной школьной формы с 2024 года</p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Каталог</h4>
+              <ul className="space-y-2 text-gray-400">
+                <li><a href="#" className="hover:text-white transition-colors">Блузки и рубашки</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Брюки и юбки</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Костюмы</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Аксессуары</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Информация</h4>
+              <ul className="space-y-2 text-gray-400">
+                <li><a href="#" className="hover:text-white transition-colors">О компании</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Доставка и оплата</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Возврат и обмен</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Контакты</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-4">Контакты</h4>
+              <ul className="space-y-2 text-gray-400">
+                <li className="flex items-center gap-2">
+                  <Icon name="Phone" size={16} />
+                  <span>8 (800) 123-45-67</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Icon name="Mail" size={16} />
+                  <span>info@schoolstyle.ru</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <Icon name="MapPin" size={16} />
+                  <span>г. Москва, ул. Школьная, 1</span>
+                </li>
+              </ul>
+              <div className="flex gap-4 mt-4">
+                <a href="#" className="hover:text-[#33C3F0] transition-colors">
+                  <Icon name="Instagram" size={20} />
+                </a>
+                <a href="#" className="hover:text-[#33C3F0] transition-colors">
+                  <Icon name="FacebookIcon" size={20} />
+                </a>
+                <a href="#" className="hover:text-[#33C3F0] transition-colors">
+                  <Icon name="Youtube" size={20} />
+                </a>
+                <a href="#" className="hover:text-[#33C3F0] transition-colors">
+                  <Icon name="Telegram" size={20} />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="border-t border-gray-800 mt-8 pt-6 text-center text-gray-500">
+            <p>© 2024 ШкольныйСтиль. Все права защищены.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Index;
